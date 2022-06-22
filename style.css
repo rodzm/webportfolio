@@ -1,0 +1,43 @@
+body{
+  font-family: 'Varela Round', sans-serif;
+}
+
+#greeting {
+  font-size: 8vh;
+  font-weight: bold;
+}
+
+#desc {
+  font-size: 3vh;
+}
+
+#bg-img {
+  background-image: url(images/bg.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  min-height:100vh;
+}
+
+#front-bg {
+  background-color: hsla(0, 0%, 0%, 0.80);
+  min-height:100vh;
+}
+
+#button{
+  color: white;
+  background-color: #000000;
+  font-weight: bold;
+  border-radius: 25px;
+  border: none;
+  padding: .7rem 3rem;
+}
+
+#footer{
+  background-color: black;
+}
+
+#skills{
+  background-color: black;
+}
