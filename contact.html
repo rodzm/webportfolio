@@ -46,59 +46,70 @@
 
 
 <!-- Start of Contact Me -->
-<div id="contact" class="container-fluid p-5 text-center">
-  <h2 class="text-center pt-4" id="title">Contact Me</h2>
+<div id="contact" class="container-fluid p-5 text-center min-vh-100">
+  <h2 class="text-center pt-5" id="title">Contact Me</h2>
   <p class="text-center" id="txt">I am available to work on your projects and bring your ideas to life. I am just a click away.</p>
-  <div class="row justify-content-center align-items-center">
-    <form action="process.php" method="get" class="col-xl-4 col-md-8 col-12 pb-5 pl-5 pr-5 rounded w-50  contact-row">
-      <div class="form-group">
-        <label for="exampleFormControlInput1"></label>
-        <input type="text" name="fname" class="form-control" id="exampleFormControlInput1" placeholder="Full Name" required >
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlInput1"></label>
-        <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="Email" required>
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlInput1"></label>
-        <input type="tel" name="phonenum" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number" required>
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlTextarea1"></label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your message" required rows="8"></textarea>
-      </div>
-      
+  
+    
 
-      <!-- Button trigger modal -->
-        <button id="button" type="button" class="btn text-white border border-dark rounded-pill mb-2 mt-2" data-toggle="modal" data-target="#exampleModal">
-          Send
-        </button>
-
-      <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-<div class="modal-dialog">
-<div class="modal-content">
-  <div class="modal-header">
-    <h5 class="modal-title text-dark" id="exampleModalLabel">Thank You!</h5>
-    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-      <span aria-hidden="false">&times;</span>
-    </button>
-  </div>
-  <div class="modal-body text-dark" id="txt">
-    Your form submission has been received.
-  </div>
-  <div class="modal-footer">
-    <button id="button" type="button" class="btn" data-dismiss="modal">Close</button>
-  </div>
-</div>
-</div>
+<div class="text"></div>
+  <div class="container-fluid">
+    <form action="process.php" method="get">
+      <div class="text-light row">
+        <div class="pl-md-5 col-md-6 col-12">
+            <div class="form-group">
+              <label for="exampleFormControlInput1"></label>
+              <input type="text" name="fname" class="form-control" id="exampleFormControlInput1" placeholder="Full Name" required >
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1"></label>
+              <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1"></label>
+              <input type="tel" name="phonenum" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number" required>
+            </div>
+            </div>
+            <div class="pr-md-5 col-md-6 col-12">
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1"></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your message" required rows="8"></textarea>
+              </div>
+            <!-- Button trigger modal -->
+            <div class="container-fluid d-flex justify-content-center align-items-center">
+              <button id="button" type="button" class="btn text-white border border-dark rounded-pill mb-2 mt-2" data-toggle="modal" data-target="#exampleModal">
+                Send
+              </button>
+            </div>
+            <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-dark" id="exampleModalLabel">Thank You!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="false">&times;</span>
+          </button>
         </div>
-
+        <div class="modal-body text-dark" id="txt">
+          Your message has been received.
+        </div>
+        <div class="modal-footer">
+          <button id="button" type="button" class="btn" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      </div>
+            </div>
+      </div>
+      </div>
     </form>
- </div>
+      </div>
+      </div>
 
-</div>
 
+    <!-- end of contact  -->
+
+    
 <!-- Start of Footer -->
 <div id="footer" class="text-muted text-center p-3">
 <p>
