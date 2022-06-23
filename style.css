@@ -1,6 +1,12 @@
-body{
-  font-family: 'Varela Round', sans-serif;
+#navbar {
+  background-color: whitesmoke;
+  font-size: 18px;
 }
+
+.current {
+  font-weight: bold;
+}
+
 
 #greeting {
   font-size: 8vh;
@@ -11,18 +17,47 @@ body{
   font-size: 3vh;
 }
 
-#bg-img {
+/* #bg-img {
   background-image: url(images/bg.jpeg);
   background-position: center;
   background-size: cover;
-  background-attachment: scroll;
+  background-attachment:scroll;
   background-repeat: no-repeat;
+  min-height:100vh;
+} */
+
+#front-bg {
+  /* background-color: hsla(0, 0%, 0%, 0.80); */
+  /* background-color: #000000; */
   min-height:100vh;
 }
 
-#front-bg {
-  background-color: hsla(0, 0%, 0%, 0.80);
-  min-height:100vh;
+#pic{
+  height: 30vh;
+  width: 30vh;
+}
+
+#carousel, #about, #contact {
+  /* background-color: #1d1d1d; */
+  text-align: center;
+
+}
+
+.carousel, .card {
+  background-color: whitesmoke;
+}
+
+#contact-row{
+  background-color: whitesmoke;
+}
+
+#skills{
+  background-color: whitesmoke;
+}
+
+.tools {
+  width: 100px;
+
 }
 
 #button{
@@ -35,9 +70,5 @@ body{
 }
 
 #footer{
-  background-color: black;
-}
-
-#skills{
-  background-color: black;
+  background-color: whitesmoke;
 }
