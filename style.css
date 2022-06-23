@@ -1,3 +1,11 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+}
+
 #navbar {
   background-color: whitesmoke;
   font-size: 18px;
@@ -10,12 +18,25 @@
 
 #greeting {
   font-size: 8vh;
-  font-weight: bold;
+  font-weight: 800;
+  font-family: 'Raleway', sans-serif;
 }
+
 
 #desc {
   font-size: 3vh;
+  font-family: 'Raleway', sans-serif;
 }
+
+#title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+#container, #footer, #txt, #exampleModal {
+  font-family: 'Raleway', sans-serif;
+}
+
 
 /* #bg-img {
   background-image: url(images/bg.jpeg);
